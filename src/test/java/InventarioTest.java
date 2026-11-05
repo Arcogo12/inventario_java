@@ -5,6 +5,6 @@ public class InventarioTest {
     @Test
     void testCalcularSubTotal() {
         int resultado = Inventario.calcularValorTotal(50, 4);
-        assertEquals(999, resultado);
+        assertEquals(200, resultado);
     }
 }

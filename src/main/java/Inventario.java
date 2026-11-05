@@ -2,7 +2,7 @@ public class Inventario {
     
     
     public static int calcularValorTotal(int precio, int cantidad) {
-        return precio * cantidad;
+        return precio + cantidad;
     }   
     public static void main(String[] args) {
         int precio = 50;
